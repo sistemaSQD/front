@@ -95,7 +95,7 @@ En este momento usted puede acceder a:
 https://sqd.demo.cu    
 > Recuerde que esta dirección cambia según la que usted ha usado
 
-Una vez que acceda, el sistema le solicita la licencia correspondiente, la cual usted debe de solicitarnos a través del correo contacto@sistemasqd.nat.cu enviando el código que se muestra en la interfaz de usuario. Puede también enviar el codigo mediante los otros canales de comunicación nuestros:   
+Una vez que acceda, el sistema le solicita la licencia correspondiente, la cual usted debe de solicitarnos a través del correo contacto@sistemasqd.nat.cu enviando el código que se muestra en la interfaz de usuario. Puede también enviar el código mediante los otros canales de comunicación nuestros:   
 https://t.me/sistemaSQD    
 https://www.facebook.com/sistemaSQD   
 
