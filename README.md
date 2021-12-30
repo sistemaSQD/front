@@ -99,8 +99,8 @@ Una vez que acceda, el sistema le solicita la licencia correspondiente, la cual 
 https://t.me/sistemaSQD    
 https://www.facebook.com/sistemaSQD   
 
-Una vez registrada la licencia que le enviaremos, los datos de acceso por defecto son:
-Usuario:  admin
+Una vez registrada la licencia que le enviaremos, los datos de acceso por defecto son:   
+Usuario:  admin    
 Password: SQD
 ## IMPORTANTE
 Para poder gestionar y monitorear el servidor proxy que usted va a registrar primero debe de modificar el archivo de configuración de squid de dicho servidor proxy para permitir el accedo de SQD al administrador de cache de squid. Para el siguiente ejemplo se asume que el password que se le pone al administrador de cache de squid es **P1ssw0rd** y que la ip de la pc donde se instaló SQD es **192.168.43.30**
