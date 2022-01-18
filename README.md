@@ -95,15 +95,13 @@ En este momento usted puede acceder a:
 https://sqd.demo.cu    
 > Recuerde que esta dirección cambia según la que usted ha usado
 
-Una vez que acceda, el sistema le solicita la licencia correspondiente, la cual usted debe de solicitarnos a través del correo contacto@sistemasqd.nat.cu enviando el código que se muestra en la interfaz de usuario. Puede también enviar el código mediante los otros canales de comunicación nuestros:   
-https://t.me/sistemaSQD    
-https://www.facebook.com/sistemaSQD   
+Una vez que acceda, el sistema le solicita la licencia correspondiente, para lo cual usted debe de registrarse en la web del proyecto https://www.sistemasqd.nat.cu y solicitarnos la licencia utilizando el formulario disponible en la web cuando acceda con sus datos de registro, debe de enviar el código que se muestra en la interfaz de usuario de SQD y el nombre de su empresa. Si la licencia que solicita es DEMO el sistema le genera automaticamente la licencia y usted la puede descargar y subirla al sistema SQD para comenzar la prueba, en caso de solicitar una licencia de pago deberá de esperar a nuestra aprobación.  
 
 Una vez registrada la licencia que le enviaremos, los datos de acceso por defecto son:   
 Usuario:  ***admin***    
 Password: ***SQD***
 ## IMPORTANTE
-Para poder gestionar y monitorear el servidor proxy que usted va a registrar primero debe de modificar el archivo de configuración de squid de dicho servidor proxy para permitir el accedo de SQD al administrador de cache de squid. Para el siguiente ejemplo se asume que el password que se le pone al administrador de cache de squid es **P1ssw0rd** y que la ip de la pc donde se instaló SQD es **192.168.43.30**
+Para poder gestionar y monitorear el servidor proxy que usted va a registrar primero debe de modificar el archivo de configuración de squid de dicho servidor proxy para permitir el acceso de SQD al administrador de cache de squid. Para el siguiente ejemplo se asume que el password que se le pone al administrador de cache de squid es **P1ssw0rd** y que la ip de la pc donde se instaló SQD es **192.168.43.30**
 
     nano /etc/squid/squid.conf
         cachemgr_passwd P1ssw0rd all
@@ -120,3 +118,7 @@ Reiniciar el squid para aplicar el cambio
 Listo ya puede registrar su proxy para ser gestionado y monitoreado por SQD
 
 ### Recuerde que usted puede aportar también en este sistema para que se incluyan nuevas funcionalidades que sean de su interés
+
+# Nota IMPORTANTE  
+
+## Si al registrase en nuestra web el correo de verificación no le llega es muy probable que sea porque nuestra ip está dentro de un rango de ip de Cuba puestas en lista negra por http://www.sorbs.net/lookup.shtml y por http://www.spamrats.com. Lamentamos no poder resolver esta situación nosotros mismos ya que dependemos de nuestro proveedor para poderlo resolver. Usted puede agregar temporalmente nuestro dominio a su lista blanca en su servidor de correo para poder completar el registro. 
